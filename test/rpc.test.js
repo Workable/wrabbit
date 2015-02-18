@@ -37,9 +37,16 @@ describe('jackrabbit', function() {
     });
 
     it('handles an rpc response', function(done) {
-      this.client.publish(this.name, { a: 2, b: 3 }, function onResponse(err, response) {
+      this.client.publish(this.name, { a: 2, b: 3 }, undefined,  function onResponse(err, response) {
         assert.ok(!err);
         assert.equal(response, 5);
+        done();
+      });
+    });
+
+    it('handles an publish ack', function(done) {
+      this.client.publish(this.name, { a: 2, b: 3 }, function publishAck(err, ok) {
+        assert.ok(!err);
         done();
       });
     });

@@ -1,7 +1,7 @@
 {
-  "name": "jackrabbit",
-  "version": "3.0.7",
-  "description": "Simple AMQP / RabbitMQ job queues for node",
+  "name": "jackrabbit-2",
+  "version": "0.1.0",
+  "description": "Simple AMQP / RabbitMQ job queues for node extended from jackrabbit",
   "keywords": [
     "amqp",
     "rabbit",
@@ -11,9 +11,9 @@
     "task",
     "resqueue"
   ],
-  "repository": "hunterloftis/jackrabbit",
+  "repository": "nikostoulas/jackrabbit-2",
   "homepage": "https://github.com/hunterloftis/jackrabbit",
-  "bugs": "https://github.com/hunterloftis/jackrabbit/issues",
+  "bugs": "nikostoulas/jackrabbit-2",
   "main": "lib/jackrabbit.js",
   "scripts": {
     "test": "mocha"
@@ -21,7 +21,7 @@
   "engines": {
     "node": ">= 0.10.x"
   },
-  "author": "Hunter Loftis <hunter@hunterloftis.com>",
+  "author": "Nikos Kostoulas <nikostoulas@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "amqplib": "^0.2.1",
