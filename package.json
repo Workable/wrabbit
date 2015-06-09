@@ -24,9 +24,9 @@
   "author": "Nikos Kostoulas <nikostoulas@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "amqplib": "^0.2.1",
+    "amqplib": "^0.3.2",
     "lodash": "^2.4.1",
-    "node-uuid": "^1.4.1"
+    "uuid": "^2.0.1"
   },
   "devDependencies": {
     "chai": "^1.9.1",
