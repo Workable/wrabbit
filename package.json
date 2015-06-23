@@ -26,6 +26,7 @@
   "dependencies": {
     "amqplib": "^0.3.2",
     "lodash": "^2.4.1",
+    "log4js": "^0.6.26",
     "uuid": "^2.0.1"
   },
   "devDependencies": {
