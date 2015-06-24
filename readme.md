@@ -22,8 +22,15 @@ queue.on('connected', function() {
 
 ## Installation
 
-```
-npm install --save wrabbit
+not in npm -- you will have install it through git
+Add in package.json the bellow dependency:
+
+"wrabbit": "git://github.com/workable/wrabbit.git#0.0.1"
+
+and then run 
+
+```js
+npm install
 ```
 
 ```js
