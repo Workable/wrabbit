@@ -1,9 +1,9 @@
-# Jackrabbit
+# WRabbit (based on [jackrabbit](https://github.com/hunterloftis/jackrabbit) )
 
 Simple AMQP / RabbitMQ job queues for node
 
 ```js
-var queue = jackrabbit('amqp://localhost');
+var queue = wrabbit('amqp://localhost');
 
 queue.on('connected', function() {
   queue.create('jobs.greet', { prefetch: 5 }, onReady);
@@ -23,11 +23,11 @@ queue.on('connected', function() {
 ## Installation
 
 ```
-npm install --save jackrabbit
+npm install --save wrabbit
 ```
 
 ```js
-var jackrabbit = require('jackrabbit');
+var wrabbit = require('wrabbit');
 ```
 
 ## Use
@@ -35,7 +35,7 @@ var jackrabbit = require('jackrabbit');
 First, create a queue and connect to an amqp server:
 
 ```js
-var queue = jackrabbit(amqp_url, prefetch)
+var queue = wrabbit(amqp_url, prefetch)
 ```
 
 - amqp_url: eg, 'amqp://localhost'

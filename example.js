@@ -1,5 +1,5 @@
-var jackrabbit = require('./');
-var queue = jackrabbit('amqp://localhost');
+var wrabbit = require('./');
+var queue = wrabbit('amqp://localhost');
 
 queue.on('connected', function() {
   queue.create('jobs.greet', { prefetch: 5 }, onReady);

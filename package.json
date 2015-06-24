@@ -1,6 +1,6 @@
 {
-  "name": "jackrabbit-2",
-  "version": "0.1.1",
+  "name": "wrabbit",
+  "version": "0.0.1",
   "description": "Simple AMQP / RabbitMQ job queues for node extended from jackrabbit",
   "keywords": [
     "amqp",
@@ -11,17 +11,16 @@
     "task",
     "resqueue"
   ],
-  "repository": "nikostoulas/jackrabbit-2",
-  "homepage": "https://github.com/hunterloftis/jackrabbit",
-  "bugs": "nikostoulas/jackrabbit-2",
-  "main": "lib/jackrabbit.js",
+  "repository": "Workable/wrabbit",
+  "bugs": "Workable/wrabbit",
+  "main": "lib/wrabbit.js",
   "scripts": {
     "test": "mocha"
   },
   "engines": {
     "node": ">= 0.10.x"
   },
-  "author": "Nikos Kostoulas <nikostoulas@gmail.com>",
+  "author": "Nikos Kostoulas <kostoulas@workable.com>",
   "license": "MIT",
   "dependencies": {
     "amqplib": "^0.3.2",
