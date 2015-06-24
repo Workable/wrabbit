@@ -23,6 +23,7 @@ queue.on('connected', function() {
 ## Installation
 
 not in npm -- you will have install it through git
+
 Add in package.json the bellow dependency:
 
 "wrabbit": "git://github.com/workable/wrabbit.git#0.0.1"
