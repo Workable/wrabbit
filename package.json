@@ -1,6 +1,6 @@
 {
   "name": "wrabbit",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "Simple AMQP / RabbitMQ job queues for node extended from jackrabbit",
   "keywords": [
     "amqp",
